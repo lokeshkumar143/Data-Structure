@@ -14,10 +14,8 @@ scanf("%d",&pos);
 printf("Enter the value into that position: ");
 scanf("%d",&value);
 for(i=n-1; i>=pos-1; i--)
-{
 a[i+1]=a[i];
 a[pos-1]=value;
-}
 printf("After inserting the value is\n");
 for(i=0; i<=n; i++)
 {
